@@ -29,12 +29,12 @@ Bamazon is a series of node CLI appplications that use SQL to query the Bamazon 
 
 `bamazonsupervisor.js` first prompts the user to enter what they would like to do with the app. The 2 options and what they do are as follows:
 	
-	* View Product Sales By Department
-		* Shows a table with the following columns:
-			* department_id: the ID of the department
-			* department_name: the name of the department
-			* over_head_costs: the overhead costs of the department
-			* product sales: the total sales of all the products in that department
-			* total profit: the profit calculated from the difference of over_head_costs and product_sales
-	* Create A New Department
-		* Allows the user to create a new department in the departments table
+* View Product Sales By Department
+	* Shows a table with the following columns:
+		* department_id: the ID of the department
+		* department_name: the name of the department
+		* over_head_costs: the overhead costs of the department
+		* product sales: the total sales of all the products in that department
+		* total profit: the profit calculated from the difference of over_head_costs and product_sales
+* Create A New Department
+	* Allows the user to create a new department in the departments table
