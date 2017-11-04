@@ -1,16 +1,16 @@
 # bamazon
 
 
-##Overview
+## Overview
 
 Bamazon is a series of node CLI appplications that use SQL to query the Bamazon database and retrieve, udpate, or post data. It has three separate applications, one for customers, one for managers, and one for supervisors.
 
-###Customer Interface
+### Customer Interface
 [![asciicast](https://asciinema.org/a/qRgIcruC87VMRQjuZYanJ2Tnf.png)](https://asciinema.org/a/qRgIcruC87VMRQjuZYanJ2Tnf)
 
 `bamazoncustomer.js` first displays a table of all available products and then prompts the user to enter the item_id of the product they would like to purchase as well as the quantity. The application then updates the Bamazon products database, depletes the stock_quantity of that item, and updates that items total_sales.
 
-###Manager Interface
+### Manager Interface
 [![asciicast](https://asciinema.org/a/RgSe5E7SOs7a6A2UsIBiIJFtw.png)](https://asciinema.org/a/RgSe5E7SOs7a6A2UsIBiIJFtw)
 
 `bamazonmanager.js` first prompts the user to enter what they would like to do with the app. The four options and what they do are as follows:
@@ -24,7 +24,7 @@ Bamazon is a series of node CLI appplications that use SQL to query the Bamazon 
 	* Add New Product
 		* Adds a new product to the products table.
 
-###Supervisor Interface
+### Supervisor Interface
 [![asciicast](https://asciinema.org/a/RXNxrKD0PX6b2fUK1UmPjUVbx.png)](https://asciinema.org/a/RXNxrKD0PX6b2fUK1UmPjUVbx)
 
 `bamazonsupervisor.js` first prompts the user to enter what they would like to do with the app. The 2 options and what they do are as follows:
