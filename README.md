@@ -15,14 +15,14 @@ Bamazon is a series of node CLI appplications that use SQL to query the Bamazon 
 
 `bamazonmanager.js` first prompts the user to enter what they would like to do with the app. The four options and what they do are as follows:
 
-	* View Products For Sale
-		* Shows the entire list of products for sale.
-	* View Low Inventory
-		* Shows products with inventory less than 20.
-	* Add To Inventory
-		* Adds more inventory to a specific product.
-	* Add New Product
-		* Adds a new product to the products table.
+* View Products For Sale
+	* Shows the entire list of products for sale.
+* View Low Inventory
+	* Shows products with inventory less than 20.
+* Add To Inventory
+	* Adds more inventory to a specific product.
+* Add New Product
+	* Adds a new product to the products table.
 
 ### Supervisor Interface
 [![asciicast](https://asciinema.org/a/RXNxrKD0PX6b2fUK1UmPjUVbx.png)](https://asciinema.org/a/RXNxrKD0PX6b2fUK1UmPjUVbx)
